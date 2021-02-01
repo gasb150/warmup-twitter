@@ -3061,3 +3061,1956 @@ Migrating to DeviseCreateUsers (20210201164555)
   [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/tweeets/users/sing_up" for ::1 at 2021-02-01 12:01:20 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/tweeets/users/sing_up"):
+  
+Started GET "/users/sing_up" for ::1 at 2021-02-01 12:01:39 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/sing_up"):
+  
+Started GET "/users/sgin_up" for ::1 at 2021-02-01 12:02:36 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/sgin_up"):
+  
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:02:42 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 13.7ms | Allocations: 4244)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 4344)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 1.3ms | Allocations: 9714)
+
+
+
+NoMethodError - undefined method `registration_path' for #<ActionView::Base:0x0000000000cf80>:
+  app/views/devise/registrations/new.html.erb:3
+
+Started POST "/__better_errors/c509773719dffb23/variables" for ::1 at 2021-02-01 12:02:42 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:08:06 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 19.5ms | Allocations: 4272)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 4372)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms | Allocations: 5990)
+
+
+
+NoMethodError - undefined method `custom_user_registration_path' for #<ActionView::Base:0x0000000000d098>
+Did you mean?  cancel_user_registration_path:
+  app/views/devise/registrations/new.html.erb:3
+
+Started POST "/__better_errors/10083efb1f359939/variables" for ::1 at 2021-02-01 12:08:06 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:08:15 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 13.7ms | Allocations: 4246)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 4346)
+Completed 500 Internal Server Error in 21ms (Allocations: 5964)
+
+
+
+NoMethodError - undefined method `registration_path' for #<ActionView::Base:0x0000000000d1b0>:
+  app/views/devise/registrations/new.html.erb:3
+
+Started POST "/__better_errors/0cd7f9ee5f822a2f/variables" for ::1 at 2021-02-01 12:08:16 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:09:37 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 15.2ms | Allocations: 4010)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 4110)
+Completed 500 Internal Server Error in 17ms (Allocations: 4592)
+
+
+
+NoMethodError - undefined method `registration_path' for #<ActionView::Base:0x0000000000d278>:
+  app/views/devise/registrations/new.html.erb:3
+
+Started POST "/__better_errors/eee8af0f90158559/variables" for ::1 at 2021-02-01 12:09:37 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:11:06 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 550)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 67.0ms | Allocations: 16350)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 88.1ms | Allocations: 22898)
+Completed 200 OK in 123ms (Views: 95.5ms | ActiveRecord: 0.7ms | Allocations: 30842)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddFieldsToUsers (20210201171818)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddFieldsToUsers (20210201171818)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "users" ADD "name" varchar[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "users" ADD "username" varchar[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_username" ON "users" ("username")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210201171818"]]
+  [1m[36mTRANSACTION (150.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:26:22 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 454)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 11.7ms | Allocations: 7189)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 11136)
+Completed 200 OK in 27ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 16033)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:27:17 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 446)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 16.0ms | Allocations: 7165)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 11111)
+Completed 200 OK in 33ms (Views: 30.5ms | ActiveRecord: 0.0ms | Allocations: 12775)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:28:45 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.6ms | Allocations: 446)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 25.2ms | Allocations: 7161)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 11105)
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.0ms | Allocations: 12753)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:31:12 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 449)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 27.5ms | Allocations: 7764)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.5ms | Allocations: 11708)
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 0.0ms | Allocations: 13344)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:31:24 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 446)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 14.0ms | Allocations: 6576)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 10505)
+Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 12152)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:31:30 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 446)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 16.6ms | Allocations: 7062)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 11006)
+Completed 200 OK in 29ms (Views: 27.2ms | ActiveRecord: 0.0ms | Allocations: 12642)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:33:32 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 447)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 13.3ms | Allocations: 7189)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 11135)
+Completed 200 OK in 28ms (Views: 26.5ms | Allocations: 12793)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:34:29 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 446)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 12.4ms | Allocations: 7178)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 11107)
+Completed 200 OK in 23ms (Views: 21.4ms | Allocations: 12752)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:34:55 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 12.9ms | Allocations: 6420)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 10001)
+Completed 200 OK in 20ms (Views: 18.6ms | Allocations: 10512)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:36:32 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 18.8ms | Allocations: 9526)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 9626)
+Completed 500 Internal Server Error in 26ms (Allocations: 11251)
+
+
+
+ArgumentError - unknown keyword: :class:
+  app/views/devise/registrations/new.html.erb:32
+  app/views/devise/registrations/new.html.erb:8
+
+Started POST "/__better_errors/48efa15489f05a3c/variables" for ::1 at 2021-02-01 12:36:32 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:37:11 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 446)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 13.0ms | Allocations: 7188)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 11132)
+Completed 200 OK in 27ms (Views: 25.5ms | Allocations: 12780)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:37:32 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 71)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 14.8ms | Allocations: 6434)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 10001)
+Completed 200 OK in 25ms (Views: 23.3ms | Allocations: 10514)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:40:58 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.7ms | Allocations: 446)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 23.3ms | Allocations: 7201)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 36.9ms | Allocations: 11131)
+Completed 200 OK in 45ms (Views: 43.4ms | Allocations: 12776)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:41:45 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 446)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 12.4ms | Allocations: 7197)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 11141)
+Completed 200 OK in 22ms (Views: 21.4ms | Allocations: 12790)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:43:17 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 446)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 12.8ms | Allocations: 7073)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 11002)
+Completed 200 OK in 22ms (Views: 20.7ms | Allocations: 12637)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 12:43:34 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 446)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 15.4ms | Allocations: 6915)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 10845)
+Completed 200 OK in 29ms (Views: 28.0ms | Allocations: 12493)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 13:58:35 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 71)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 12.9ms | Allocations: 6154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 9720)
+Completed 200 OK in 24ms (Views: 21.9ms | Allocations: 10230)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:01:04 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 16.6ms | Allocations: 6777)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 6877)
+Completed 500 Internal Server Error in 24ms (Allocations: 8484)
+
+
+
+NoMethodError - undefined method `name' for #<User id: nil, email: "", created_at: nil, updated_at: nil>:
+  app/views/devise/registrations/new.html.erb:13
+  app/views/devise/registrations/new.html.erb:8
+
+Started POST "/__better_errors/839c98fa90e1c60a/variables" for ::1 at 2021-02-01 14:01:04 -0500
+Started GET "/tweeets/7" for ::1 at 2021-02-01 14:02:32 -0500
+Processing by TweeetsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweeets_controller.rb:63:in `set_tweeet'
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" WHERE "tweeets"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/tweeets_controller.rb:63:in `set_tweeet'
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/show.html.erb within layouts/application
+  Rendered tweeets/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 219)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 4191)
+Completed 200 OK in 20ms (Views: 7.5ms | ActiveRecord: 1.6ms | Allocations: 8981)
+
+
+Started POST "/__better_errors/839c98fa90e1c60a/variables" for ::1 at 2021-02-01 14:02:39 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:02:40 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 13.3ms | Allocations: 6156)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 6256)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 6739)
+
+
+
+NoMethodError - undefined method `name' for #<User id: nil, email: "", created_at: nil, updated_at: nil>:
+  app/views/devise/registrations/new.html.erb:13
+  app/views/devise/registrations/new.html.erb:8
+
+Started POST "/__better_errors/b6688a88429c0e47/variables" for ::1 at 2021-02-01 14:02:40 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:03:16 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 514)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 43.1ms | Allocations: 19290)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57.2ms | Allocations: 26026)
+Completed 200 OK in 81ms (Views: 62.3ms | ActiveRecord: 1.1ms | Allocations: 34910)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:03:49 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 71)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 65.5ms | Allocations: 9272)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 81.8ms | Allocations: 12838)
+Completed 200 OK in 87ms (Views: 83.7ms | ActiveRecord: 0.0ms | Allocations: 13351)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-02-01 14:03:51 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 183)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 43.5ms | Allocations: 9480)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 49.3ms | Allocations: 13081)
+Completed 200 OK in 56ms (Views: 53.6ms | ActiveRecord: 0.0ms | Allocations: 14802)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-02-01 14:05:50 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 492)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 17.3ms | Allocations: 9001)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.2ms | Allocations: 12945)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.0ms | Allocations: 14659)
+
+
+Started GET "/users/password/new" for ::1 at 2021-02-01 14:05:54 -0500
+Processing by Devise::PasswordsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 120)
+  Rendered devise/passwords/new.html.erb within layouts/application (Duration: 10.0ms | Allocations: 3598)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 7162)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 8351)
+
+
+Started GET "/users/password/new" for ::1 at 2021-02-01 14:07:12 -0500
+Processing by Devise::PasswordsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 490)
+  Rendered devise/passwords/new.html.erb within layouts/application (Duration: 11.6ms | Allocations: 3938)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 7871)
+Completed 200 OK in 26ms (Views: 22.6ms | ActiveRecord: 0.0ms | Allocations: 9514)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddUserIdToTweeets (20210201191031)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "tweeets" ADD "user_id" integer[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210201191031"]]
+  [1m[36mTRANSACTION (122.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/users/sign_in" for ::1 at 2021-02-01 14:24:22 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 127)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 14.4ms | Allocations: 8520)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 12110)
+Completed 200 OK in 35ms (Views: 26.9ms | ActiveRecord: 0.0ms | Allocations: 17260)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:24:23 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 44.6ms | Allocations: 9844)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 63.7ms | Allocations: 14059)
+Completed 200 OK in 80ms (Views: 76.8ms | ActiveRecord: 0.0ms | Allocations: 15268)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:24:25 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 31.7ms | Allocations: 9280)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.7ms | Allocations: 12847)
+Completed 200 OK in 43ms (Views: 40.1ms | ActiveRecord: 0.0ms | Allocations: 13364)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-02-01 14:24:26 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 116)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 22.0ms | Allocations: 8298)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 12520)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.0ms | Allocations: 13100)
+
+
+Started GET "/users/password/new" for ::1 at 2021-02-01 14:24:27 -0500
+Processing by Devise::PasswordsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/passwords/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 120)
+  Rendered devise/passwords/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 3185)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 7417)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.0ms | Allocations: 8102)
+
+
+Started POST "/users" for ::1 at 2021-02-01 14:35:44 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"gustavo sanmartin", "username"=>"gasb_150", "email"=>"gasb_150@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+[31mUnpermitted parameters: :name, :username[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "gasb_150@hotmail.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 23.6ms | Allocations: 10254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 13843)
+Completed 200 OK in 532ms (Views: 31.2ms | ActiveRecord: 0.5ms | Allocations: 24558)
+
+
+Started POST "/users" for ::1 at 2021-02-01 14:36:37 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"Gustavo Sanmartin", "username"=>"gasb150", "email"=>"gasb_150@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+[31mUnpermitted parameters: :name, :username[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "gasb_150@hotmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "gasb_150@hotmail.com"], ["encrypted_password", "$2a$12$78UvBnYWzEwNc1KXR.HmsORKrUudh.TjQ6zGpgDhMu.fr4ZmMuek2"], ["created_at", "2021-02-01 19:36:38.041122"], ["updated_at", "2021-02-01 19:36:38.041122"]]
+  [1m[36mTRANSACTION (92.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://[::1]:3000/
+Completed 302 Found in 338ms (ActiveRecord: 93.0ms | Allocations: 7513)
+
+
+Started GET "/" for ::1 at 2021-02-01 14:36:38 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.3ms | Allocations: 95)
+  Rendered tweeets/_form.html.erb (Duration: 12.9ms | Allocations: 3257)
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  Rendered tweeets/_feed.html.erb (Duration: 20.5ms | Allocations: 5005)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.8ms | Allocations: 130)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 24.6ms | Allocations: 6017)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 9591)
+Completed 200 OK in 47ms (Views: 34.0ms | ActiveRecord: 1.2ms | Allocations: 13702)
+
+
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.7ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  [1m[36mTRANSACTION (108.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/users" for ::1 at 2021-02-01 14:41:36 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:41:37 -0500
+
+ActionController::RoutingError - uninitialized constant RegistrarionsController
+Did you mean?  RegistrationsControler:
+
+Started POST "/__better_errors/d2ae5abaece8cf83/variables" for ::1 at 2021-02-01 14:41:37 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:41:39 -0500
+
+ActionController::RoutingError - uninitialized constant RegistrarionsController
+Did you mean?  RegistrationsControler:
+
+Started POST "/__better_errors/9b34bf0750ea29f7/variables" for ::1 at 2021-02-01 14:41:39 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:42:06 -0500
+
+ActionController::RoutingError - uninitialized constant RegistrationsController
+Did you mean?  RegistrationsControler:
+
+Started POST "/__better_errors/cee564961c37c291/variables" for ::1 at 2021-02-01 14:42:06 -0500
+Started POST "/__better_errors/cee564961c37c291/variables" for ::1 at 2021-02-01 14:42:13 -0500
+Started POST "/__better_errors/cee564961c37c291/variables" for ::1 at 2021-02-01 14:42:18 -0500
+Started POST "/__better_errors/cee564961c37c291/variables" for ::1 at 2021-02-01 14:42:19 -0500
+Started POST "/__better_errors/cee564961c37c291/variables" for ::1 at 2021-02-01 14:42:19 -0500
+Started POST "/__better_errors/cee564961c37c291/variables" for ::1 at 2021-02-01 14:42:20 -0500
+Started POST "/__better_errors/cee564961c37c291/variables" for ::1 at 2021-02-01 14:42:21 -0500
+Started POST "/__better_errors/cee564961c37c291/variables" for ::1 at 2021-02-01 14:42:22 -0500
+Started POST "/__better_errors/cee564961c37c291/variables" for ::1 at 2021-02-01 14:42:23 -0500
+Started POST "/__better_errors/cee564961c37c291/variables" for ::1 at 2021-02-01 14:42:24 -0500
+Started POST "/__better_errors/cee564961c37c291/variables" for ::1 at 2021-02-01 14:42:29 -0500
+Started POST "/__better_errors/cee564961c37c291/variables" for ::1 at 2021-02-01 14:42:30 -0500
+Started POST "/__better_errors/cee564961c37c291/variables" for ::1 at 2021-02-01 14:42:30 -0500
+Started POST "/__better_errors/cee564961c37c291/variables" for ::1 at 2021-02-01 14:42:34 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:42:35 -0500
+
+ActionController::RoutingError - uninitialized constant RegistrationsController
+Did you mean?  RegistrationsControler:
+
+Started POST "/__better_errors/894d347cb414e265/variables" for ::1 at 2021-02-01 14:42:35 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:42:48 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+
+ActionController::RoutingError - uninitialized constant RegistrationsController
+Did you mean?  RegistrationsControler:
+
+Started POST "/__better_errors/1a9d4bc1e34ebc87/variables" for ::1 at 2021-02-01 14:42:48 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:42:49 -0500
+
+ActionController::RoutingError - uninitialized constant RegistrationsController
+Did you mean?  RegistrationsControler:
+
+Started POST "/__better_errors/fb37db70aa7f8605/variables" for ::1 at 2021-02-01 14:42:49 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:43:01 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 495)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 32.2ms | Allocations: 19243)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 47.3ms | Allocations: 25641)
+Completed 200 OK in 87ms (Views: 51.6ms | ActiveRecord: 1.8ms | Allocations: 36231)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:43:14 -0500
+
+ActionController::RoutingError - uninitialized constant RegistrationsController
+Did you mean?  RegistrationsControler:
+
+Started POST "/__better_errors/01f01221593f9980/variables" for ::1 at 2021-02-01 14:43:14 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:45:47 -0500
+
+ActionController::RoutingError - uninitialized constant RegistrationsController
+Did you mean?  RegistrationsControler:
+
+Started POST "/__better_errors/7d14d15237658f6f/variables" for ::1 at 2021-02-01 14:45:47 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:45:48 -0500
+
+ActionController::RoutingError - uninitialized constant RegistrationsController
+Did you mean?  RegistrationsControler:
+
+Started POST "/__better_errors/5a5b51706cbb51dc/variables" for ::1 at 2021-02-01 14:45:48 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:45:48 -0500
+
+ActionController::RoutingError - uninitialized constant RegistrationsController
+Did you mean?  RegistrationsControler:
+
+Started POST "/__better_errors/bdaef854dd46bc8b/variables" for ::1 at 2021-02-01 14:45:48 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:45:48 -0500
+
+ActionController::RoutingError - uninitialized constant RegistrationsController
+Did you mean?  RegistrationsControler:
+
+Started POST "/__better_errors/3c12979a6ce4bb8a/variables" for ::1 at 2021-02-01 14:45:48 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:45:48 -0500
+
+ActionController::RoutingError - uninitialized constant RegistrationsController
+Did you mean?  RegistrationsControler:
+
+Started POST "/__better_errors/121debfd8313f79a/variables" for ::1 at 2021-02-01 14:45:49 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:46:09 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 11.4ms | Allocations: 9594)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 13184)
+Completed 200 OK in 26ms (Views: 16.3ms | ActiveRecord: 0.8ms | Allocations: 19362)
+
+
+Started POST "/users" for ::1 at 2021-02-01 14:47:02 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"Gustavo Sanmartin", "username"=>"Miaksa", "email"=>"gasb_150@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+[31mUnpermitted parameters: :name, :username[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "gasb_150@hotmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "gasb_150@hotmail.com"], ["encrypted_password", "$2a$12$SqKGQtEj.zAJJ9iKn0GaKedzgZ8wS5vWeRbAD9lkPI8ALXI/ucXZG"], ["created_at", "2021-02-01 19:47:03.188799"], ["updated_at", "2021-02-01 19:47:03.188799"]]
+  [1m[36mTRANSACTION (88.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://[::1]:3000/
+Completed 302 Found in 353ms (ActiveRecord: 88.8ms | Allocations: 12199)
+
+
+Started GET "/" for ::1 at 2021-02-01 14:47:03 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.2ms | Allocations: 95)
+  Rendered tweeets/_form.html.erb (Duration: 8.0ms | Allocations: 3315)
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  Rendered tweeets/_feed.html.erb (Duration: 13.6ms | Allocations: 5054)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.4ms | Allocations: 127)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 16.3ms | Allocations: 6065)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 9626)
+Completed 200 OK in 34ms (Views: 23.6ms | ActiveRecord: 0.8ms | Allocations: 13572)
+
+
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:47:26 -0500
+
+ActionController::RoutingError - uninitialized constant RegistrationsController
+Did you mean?  RegistrationsControler:
+
+Started POST "/__better_errors/2e4efb5b12342ed9/variables" for ::1 at 2021-02-01 14:47:26 -0500
+Started POST "/__better_errors/2e4efb5b12342ed9/variables" for ::1 at 2021-02-01 14:49:45 -0500
+Started POST "/__better_errors/2e4efb5b12342ed9/variables" for ::1 at 2021-02-01 14:49:46 -0500
+Started POST "/__better_errors/2e4efb5b12342ed9/variables" for ::1 at 2021-02-01 14:49:47 -0500
+Started POST "/__better_errors/2e4efb5b12342ed9/variables" for ::1 at 2021-02-01 14:49:48 -0500
+Started POST "/__better_errors/2e4efb5b12342ed9/variables" for ::1 at 2021-02-01 14:49:50 -0500
+Started POST "/__better_errors/2e4efb5b12342ed9/variables" for ::1 at 2021-02-01 14:49:50 -0500
+Started POST "/__better_errors/2e4efb5b12342ed9/variables" for ::1 at 2021-02-01 14:49:52 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:53:01 -0500
+
+ActionController::RoutingError - uninitialized constant RegistrationsController
+Did you mean?  RegistrationsControler:
+
+Started POST "/__better_errors/f3b6eea3e507438d/variables" for ::1 at 2021-02-01 14:53:01 -0500
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:53:40 -0500
+Processing by RegistrationsController#new as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://[::1]:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.9ms | Allocations: 7041)
+
+
+Started GET "/" for ::1 at 2021-02-01 14:53:40 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered tweeets/_form.html.erb (Duration: 4.2ms | Allocations: 3001)
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  Rendered tweeets/_feed.html.erb (Duration: 7.1ms | Allocations: 4289)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 4565)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 8134)
+Completed 200 OK in 19ms (Views: 13.8ms | ActiveRecord: 0.6ms | Allocations: 11238)
+
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (1.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 2]]
+  [1m[36mTRANSACTION (107.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2021-02-01 14:54:03 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweeets/_form.html.erb (Duration: 4.8ms | Allocations: 2936)
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  Rendered tweeets/_feed.html.erb (Duration: 8.3ms | Allocations: 4212)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 4488)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 8032)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.2ms | Allocations: 8466)
+
+
+Started GET "/" for ::1 at 2021-02-01 14:54:05 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered tweeets/_form.html.erb (Duration: 4.2ms | Allocations: 2936)
+  [1m[36mTweeet Load (0.3ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  Rendered tweeets/_feed.html.erb (Duration: 8.0ms | Allocations: 4212)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 4488)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 8032)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.3ms | Allocations: 8467)
+
+
+Started GET "/users/sgin_up" for ::1 at 2021-02-01 14:54:07 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/sgin_up"):
+  
+Started GET "/users/sing_up" for ::1 at 2021-02-01 14:54:16 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/sing_up"):
+  
+Started GET "/users/sing_up" for ::1 at 2021-02-01 14:54:32 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/sing_up"):
+  
+Started GET "/users/sing_up" for ::1 at 2021-02-01 14:54:33 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/sing_up"):
+  
+Started GET "/users/sing_up" for ::1 at 2021-02-01 14:54:33 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/sing_up"):
+  
+Started GET "/users/sing_up" for ::1 at 2021-02-01 14:54:34 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/sing_up"):
+  
+Started GET "/" for ::1 at 2021-02-01 14:54:38 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.4ms | Allocations: 95)
+  Rendered tweeets/_form.html.erb (Duration: 26.8ms | Allocations: 11017)
+  [1m[36mTweeet Load (0.3ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  Rendered tweeets/_feed.html.erb (Duration: 32.6ms | Allocations: 12768)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.3ms | Allocations: 130)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 36.2ms | Allocations: 13778)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 54.6ms | Allocations: 20146)
+Completed 200 OK in 71ms (Views: 56.6ms | ActiveRecord: 1.0ms | Allocations: 25421)
+
+
+Started GET "/users/sgin_up" for ::1 at 2021-02-01 14:54:40 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/sgin_up"):
+  
+Started GET "/users/sing_up" for ::1 at 2021-02-01 14:54:50 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/sing_up"):
+  
+Started GET "/tweeets/7" for ::1 at 2021-02-01 14:54:57 -0500
+Processing by TweeetsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mTweeet Load (0.7ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" WHERE "tweeets"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/tweeets_controller.rb:63:in `set_tweeet'
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/show.html.erb within layouts/application
+  Rendered tweeets/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 213)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3872)
+Completed 200 OK in 15ms (Views: 8.4ms | ActiveRecord: 0.7ms | Allocations: 5376)
+
+
+Started GET "/users/sing_up" for ::1 at 2021-02-01 14:55:01 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/sing_up"):
+  
+Started GET "/users/sing_up" for ::1 at 2021-02-01 14:55:58 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/sing_up"):
+  
+Started GET "/users/sing_up" for ::1 at 2021-02-01 14:55:59 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/sing_up"):
+  
+Started GET "//users/sign_up(.:format)" for ::1 at 2021-02-01 14:56:51 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_up(.:format)"):
+  
+Started GET "//users/sign_up" for ::1 at 2021-02-01 14:56:54 -0500
+Processing by RegistrationsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.1ms | Allocations: 490)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 54.9ms | Allocations: 18857)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 77.4ms | Allocations: 25248)
+Completed 200 OK in 104ms (Views: 82.2ms | ActiveRecord: 1.0ms | Allocations: 34741)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:56:58 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 71)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 26.9ms | Allocations: 9293)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.4ms | Allocations: 12875)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms | Allocations: 13436)
+
+
+Started GET "//users/sign_up" for ::1 at 2021-02-01 14:57:01 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 19.2ms | Allocations: 9306)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.2ms | Allocations: 12888)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.0ms | Allocations: 13448)
+
+
+Started GET "/users/sing_up" for ::1 at 2021-02-01 14:57:05 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/sing_up"):
+  
+Started GET "//users/sign_up" for ::1 at 2021-02-01 14:57:08 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 19.5ms | Allocations: 9299)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 12880)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 13429)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:57:10 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 16.7ms | Allocations: 9284)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 12850)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 13400)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:57:12 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 25.9ms | Allocations: 9284)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.7ms | Allocations: 12851)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms | Allocations: 13409)
+
+
+Started GET "//users/sign_up" for ::1 at 2021-02-01 14:57:13 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 29.2ms | Allocations: 9284)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 12850)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms | Allocations: 13399)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:57:18 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 16.3ms | Allocations: 9285)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 12853)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 13415)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:57:20 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 20.2ms | Allocations: 9285)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 12856)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 13406)
+
+
+Started GET "//users/sign_up" for ::1 at 2021-02-01 14:57:24 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 19.1ms | Allocations: 9298)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 12879)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 13432)
+
+
+Started GET "//users/sign_up" for ::1 at 2021-02-01 14:57:28 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 20.0ms | Allocations: 9284)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 12854)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.0ms | Allocations: 13403)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:57:28 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 15.4ms | Allocations: 9284)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 12850)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 13400)
+
+
+Started GET "//users/sign_up" for ::1 at 2021-02-01 14:57:30 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 17.3ms | Allocations: 9285)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 12863)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 13412)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-02-01 14:57:37 -0500
+Processing by RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 70)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 19.2ms | Allocations: 9284)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 12850)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 13400)
+
+
+Started POST "/users" for ::1 at 2021-02-01 14:57:51 -0500
+Processing by RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"gustavo sanmartin", "username"=>"Miaksa", "email"=>"gasb_150@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "gasb_150@hotmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "name", "username") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "gasb_150@hotmail.com"], ["encrypted_password", "$2a$12$inkcEwM7yohTvCSaDbE9NuqMWbPeJXAfVb9jnoFvH9AOhByo2woUy"], ["created_at", "2021-02-01 19:57:51.766201"], ["updated_at", "2021-02-01 19:57:51.766201"], ["name", "gustavo sanmartin"], ["username", "Miaksa"]]
+  [1m[36mTRANSACTION (95.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://[::1]:3000/
+Completed 302 Found in 370ms (ActiveRecord: 95.7ms | Allocations: 12128)
+
+
+Started GET "/" for ::1 at 2021-02-01 14:57:51 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.9ms | Allocations: 95)
+  Rendered tweeets/_form.html.erb (Duration: 8.2ms | Allocations: 3321)
+  [1m[36mTweeet Load (0.3ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  Rendered tweeets/_feed.html.erb (Duration: 14.4ms | Allocations: 5060)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.5ms | Allocations: 127)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 19.7ms | Allocations: 6070)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.9ms | Allocations: 9632)
+Completed 200 OK in 46ms (Views: 30.7ms | ActiveRecord: 1.8ms | Allocations: 13635)
+
+
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started DELETE "/tweeets/7" for ::1 at 2021-02-01 14:59:05 -0500
+Processing by TweeetsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"7"}
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" WHERE "tweeets"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/tweeets_controller.rb:63:in `set_tweeet'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweeets_controller.rb:53:in `destroy'
+  [1m[36mTweeet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "tweeets" WHERE "tweeets"."id" = ?[0m  [["id", 7]]
+  ↳ app/controllers/tweeets_controller.rb:53:in `destroy'
+  [1m[36mTRANSACTION (71.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweeets_controller.rb:53:in `destroy'
+Redirected to http://[::1]:3000/tweeets
+Completed 302 Found in 102ms (ActiveRecord: 72.2ms | Allocations: 6210)
+
+
+Started GET "/tweeets" for ::1 at 2021-02-01 14:59:05 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweeets/_form.html.erb (Duration: 13.7ms | Allocations: 2948)
+  [1m[36mTweeet Load (0.7ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  Rendered tweeets/_feed.html.erb (Duration: 25.0ms | Allocations: 4104)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 27.6ms | Allocations: 4380)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 7944)
+Completed 200 OK in 48ms (Views: 44.1ms | ActiveRecord: 0.7ms | Allocations: 8389)
+
+
+Started DELETE "/tweeets/5" for ::1 at 2021-02-01 14:59:08 -0500
+Processing by TweeetsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"5"}
+  [1m[36mTweeet Load (0.1ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" WHERE "tweeets"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/tweeets_controller.rb:63:in `set_tweeet'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweeets_controller.rb:53:in `destroy'
+  [1m[36mTweeet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "tweeets" WHERE "tweeets"."id" = ?[0m  [["id", 5]]
+  ↳ app/controllers/tweeets_controller.rb:53:in `destroy'
+  [1m[36mTRANSACTION (163.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweeets_controller.rb:53:in `destroy'
+Redirected to http://[::1]:3000/tweeets
+Completed 302 Found in 187ms (ActiveRecord: 164.3ms | Allocations: 6187)
+
+
+Started GET "/tweeets" for ::1 at 2021-02-01 14:59:08 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweeets/_form.html.erb (Duration: 13.9ms | Allocations: 2942)
+  [1m[36mTweeet Load (0.5ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  Rendered tweeets/_feed.html.erb (Duration: 23.1ms | Allocations: 3973)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.2ms | Allocations: 5)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 26.0ms | Allocations: 4249)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.7ms | Allocations: 7813)
+Completed 200 OK in 45ms (Views: 41.8ms | ActiveRecord: 0.5ms | Allocations: 8255)
+
+
+Started DELETE "/tweeets/2" for ::1 at 2021-02-01 14:59:10 -0500
+Processing by TweeetsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"2"}
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" WHERE "tweeets"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tweeets_controller.rb:63:in `set_tweeet'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweeets_controller.rb:53:in `destroy'
+  [1m[36mTweeet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "tweeets" WHERE "tweeets"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/tweeets_controller.rb:53:in `destroy'
+  [1m[36mTRANSACTION (175.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweeets_controller.rb:53:in `destroy'
+Redirected to http://[::1]:3000/tweeets
+Completed 302 Found in 195ms (ActiveRecord: 176.7ms | Allocations: 6421)
+
+
+Started GET "/tweeets" for ::1 at 2021-02-01 14:59:10 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweeets/_form.html.erb (Duration: 12.4ms | Allocations: 2942)
+  [1m[36mTweeet Load (0.4ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  Rendered tweeets/_feed.html.erb (Duration: 17.6ms | Allocations: 3851)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 4127)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 7676)
+Completed 200 OK in 31ms (Views: 27.9ms | ActiveRecord: 0.4ms | Allocations: 8119)
+
+
+Started DELETE "/tweeets/1" for ::1 at 2021-02-01 14:59:12 -0500
+Processing by TweeetsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"1"}
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" WHERE "tweeets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweeets_controller.rb:63:in `set_tweeet'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweeets_controller.rb:53:in `destroy'
+  [1m[36mTweeet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "tweeets" WHERE "tweeets"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/tweeets_controller.rb:53:in `destroy'
+  [1m[36mTRANSACTION (175.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweeets_controller.rb:53:in `destroy'
+Redirected to http://[::1]:3000/tweeets
+Completed 302 Found in 195ms (ActiveRecord: 176.1ms | Allocations: 6126)
+
+
+Started GET "/tweeets" for ::1 at 2021-02-01 14:59:12 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweeets/_form.html.erb (Duration: 15.6ms | Allocations: 2943)
+  [1m[36mTweeet Load (0.4ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  Rendered tweeets/_feed.html.erb (Duration: 23.6ms | Allocations: 3733)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.2ms | Allocations: 5)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 26.5ms | Allocations: 4009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.2ms | Allocations: 7570)
+Completed 200 OK in 48ms (Views: 45.3ms | ActiveRecord: 0.4ms | Allocations: 8012)
+
+
+Started POST "/tweeets" for ::1 at 2021-02-01 14:59:14 -0500
+Processing by TweeetsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "tweeet"=>{"tweeet"=>"12rtyu"}, "commit"=>"Create Tweeet"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweeets_controller.rb:28:in `block in create'
+  [1m[36mTweeet Create (0.8ms)[0m  [1m[32mINSERT INTO "tweeets" ("tweeet", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?)[0m  [["tweeet", "12rtyu"], ["created_at", "2021-02-01 19:59:14.903040"], ["updated_at", "2021-02-01 19:59:14.903040"], ["user_id", 3]]
+  ↳ app/controllers/tweeets_controller.rb:28:in `block in create'
+  [1m[36mTRANSACTION (118.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweeets_controller.rb:28:in `block in create'
+Redirected to http://[::1]:3000/
+Completed 302 Found in 279ms (ActiveRecord: 119.6ms | Allocations: 13139)
+
+
+Started GET "/" for ::1 at 2021-02-01 14:59:15 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweeets/_form.html.erb (Duration: 12.5ms | Allocations: 2942)
+  [1m[36mTweeet Load (0.9ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  Rendered tweeets/_feed.html.erb (Duration: 18.7ms | Allocations: 3851)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 20.3ms | Allocations: 4127)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.4ms | Allocations: 7676)
+Completed 200 OK in 32ms (Views: 28.7ms | ActiveRecord: 0.9ms | Allocations: 8118)
+
+
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2021-02-01 15:11:04 -0500
+Processing by TweeetsController#index as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweeets_controller.rb:6:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 1.1ms | Allocations: 93)
+  Rendered tweeets/_form.html.erb (Duration: 19.1ms | Allocations: 3110)
+  [1m[36mTweeet Load (1.0ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:25
+  Rendered tweeets/_feed.html.erb (Duration: 65.7ms | Allocations: 9777)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 72.7ms | Allocations: 10434)
+  Rendered layout layouts/application.html.erb (Duration: 73.3ms | Allocations: 10533)
+Completed 500 Internal Server Error in 95ms (ActiveRecord: 3.6ms | Allocations: 12353)
+
+
+
+NameError - undefined local variable or method `tweee' for #<ActionView::Base:0x0000000000ac58>
+Did you mean?  tweeet
+               @tweeet
+               @tweeets:
+  app/views/tweeets/_feed.html.erb:26
+  app/views/tweeets/_feed.html.erb:14
+  app/views/tweeets/index.html.erb:5
+
+Started POST "/__better_errors/527bc0b55f4ae287/variables" for ::1 at 2021-02-01 15:11:04 -0500
+Started GET "/" for ::1 at 2021-02-01 15:11:15 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.3ms | Allocations: 93)
+  Rendered tweeets/_form.html.erb (Duration: 5.1ms | Allocations: 3113)
+  [1m[36mTweeet Load (0.4ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:25
+  Rendered tweeets/_feed.html.erb (Duration: 13.0ms | Allocations: 5300)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.3ms | Allocations: 125)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 15.5ms | Allocations: 6295)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 10222)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.5ms | Allocations: 11462)
+
+
+Started GET "/" for ::1 at 2021-02-01 15:21:05 -0500
+Processing by TweeetsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweeets_controller.rb:6:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.3ms | Allocations: 93)
+  Rendered tweeets/_form.html.erb (Duration: 6.4ms | Allocations: 3109)
+  [1m[36mTweeet Load (0.3ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:25
+  Rendered tweeets/_feed.html.erb (Duration: 13.8ms | Allocations: 5320)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.3ms | Allocations: 125)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 17.1ms | Allocations: 6308)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:44
+  Rendered layout layouts/application.html.erb (Duration: 27.4ms | Allocations: 11254)
+Completed 200 OK in 34ms (Views: 28.5ms | ActiveRecord: 1.1ms | Allocations: 13092)
+
+
+Started GET "/" for ::1 at 2021-02-01 15:22:37 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.3ms | Allocations: 93)
+  Rendered tweeets/_form.html.erb (Duration: 5.4ms | Allocations: 3110)
+  [1m[36mTweeet Load (0.3ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:25
+  Rendered tweeets/_feed.html.erb (Duration: 13.2ms | Allocations: 5296)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.4ms | Allocations: 125)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 16.3ms | Allocations: 6284)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:44
+  Rendered layout layouts/application.html.erb (Duration: 32.8ms | Allocations: 15405)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.5ms | Allocations: 16609)
+
+
+
+NameError - undefined local variable or method `delete' for #<ActionView::Base:0x0000000000b1a8>:
+  app/views/layouts/application.html.erb:48
+
+Started POST "/__better_errors/7512e65d41f7f192/variables" for ::1 at 2021-02-01 15:22:37 -0500
+Started GET "/" for ::1 at 2021-02-01 15:22:49 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.8ms | Allocations: 93)
+  Rendered tweeets/_form.html.erb (Duration: 8.0ms | Allocations: 3109)
+  [1m[36mTweeet Load (0.3ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:25
+  Rendered tweeets/_feed.html.erb (Duration: 18.0ms | Allocations: 5295)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.4ms | Allocations: 125)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 24.4ms | Allocations: 6283)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:44
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 11228)
+Completed 200 OK in 46ms (Views: 40.8ms | ActiveRecord: 0.6ms | Allocations: 12460)
+
+
+Started GET "/users/edit" for ::1 at 2021-02-01 15:23:15 -0500
+Processing by RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 30.2ms | Allocations: 7295)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.9ms | Allocations: 11597)
+Completed 200 OK in 56ms (Views: 47.6ms | ActiveRecord: 0.3ms | Allocations: 14743)
+
+
+Started GET "/users/edit" for ::1 at 2021-02-01 15:24:14 -0500
+Processing by RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 10.8ms | Allocations: 7136)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 11244)
+Completed 200 OK in 27ms (Views: 22.6ms | ActiveRecord: 0.2ms | Allocations: 14590)
+
+
+Started GET "/users/edit" for ::1 at 2021-02-01 15:24:16 -0500
+Processing by RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 10.4ms | Allocations: 6806)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 10406)
+Completed 200 OK in 21ms (Views: 15.9ms | ActiveRecord: 0.2ms | Allocations: 11983)
+
+
+Started GET "/users/edit" for ::1 at 2021-02-01 15:25:14 -0500
+Processing by RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 5.0ms | Allocations: 2566)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2666)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms | Allocations: 5982)
+
+
+
+ActionView::MissingTemplate - Missing partial registrations/_form, devise/registrations/_form, devise/_form, application/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/tavo/Microverse/Rails/twitter clone/github/warmup-twitter/app/views"
+  * "/home/tavo/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/devise-4.7.3/app/views"
+  * "/home/tavo/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/actiontext-6.1.1/app/views"
+  * "/home/tavo/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/actionmailbox-6.1.1/app/views":
+  app/views/devise/registrations/edit.html.erb:6
+
+Started POST "/__better_errors/eb84093387e622d0/variables" for ::1 at 2021-02-01 15:25:14 -0500
+Started GET "/users/edit" for ::1 at 2021-02-01 15:26:05 -0500
+Processing by RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 15.8ms | Allocations: 10077)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 14181)
+Completed 200 OK in 30ms (Views: 25.5ms | ActiveRecord: 0.2ms | Allocations: 17527)
+
+
+Started GET "/" for ::1 at 2021-02-01 15:28:06 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 1.0ms | Allocations: 93)
+  Rendered tweeets/_form.html.erb (Duration: 19.5ms | Allocations: 3110)
+  [1m[36mTweeet Load (0.7ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:25
+  Rendered tweeets/_feed.html.erb (Duration: 92.2ms | Allocations: 10189)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 98.7ms | Allocations: 10852)
+  Rendered layout layouts/application.html.erb (Duration: 99.3ms | Allocations: 10952)
+Completed 500 Internal Server Error in 108ms (ActiveRecord: 1.1ms | Allocations: 12173)
+
+
+
+NameError - undefined local variable or method `user_sign_in' for #<ActionView::Base:0x0000000000b900>
+Did you mean?  user_signed_in?:
+  app/views/tweeets/_feed.html.erb:29
+  app/views/tweeets/_feed.html.erb:14
+  app/views/tweeets/index.html.erb:5
+
+Started POST "/__better_errors/ce88aab071d89b7c/variables" for ::1 at 2021-02-01 15:28:06 -0500
+Started GET "/" for ::1 at 2021-02-01 15:28:23 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.4ms | Allocations: 93)
+  Rendered tweeets/_form.html.erb (Duration: 4.2ms | Allocations: 3113)
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:25
+  Rendered tweeets/_feed.html.erb (Duration: 19.5ms | Allocations: 9324)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 22.0ms | Allocations: 9983)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 10082)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.3ms | Allocations: 11292)
+
+
+
+NoMethodError - undefined method `user_sign_in?' for #<ActionView::Base:0x0000000000bab8>
+Did you mean?  user_signed_in?:
+  app/views/tweeets/_feed.html.erb:29
+  app/views/tweeets/_feed.html.erb:14
+  app/views/tweeets/index.html.erb:5
+
+Started POST "/__better_errors/aedeca329e49a87d/variables" for ::1 at 2021-02-01 15:28:23 -0500
+Started GET "/" for ::1 at 2021-02-01 15:28:31 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.3ms | Allocations: 93)
+  Rendered tweeets/_form.html.erb (Duration: 5.0ms | Allocations: 3110)
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:25
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:29
+  Rendered tweeets/_feed.html.erb (Duration: 13.8ms | Allocations: 6242)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.6ms | Allocations: 125)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 17.3ms | Allocations: 7232)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 11338)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.4ms | Allocations: 12570)
+
+
+Started GET "/" for ::1 at 2021-02-01 15:28:53 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.2ms | Allocations: 6)
+  Rendered tweeets/_form.html.erb (Duration: 14.6ms | Allocations: 2945)
+  [1m[36mTweeet Load (0.5ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:25
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:29
+  Rendered tweeets/_feed.html.erb (Duration: 40.5ms | Allocations: 5659)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.2ms | Allocations: 5)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 44.8ms | Allocations: 5935)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 64.1ms | Allocations: 9533)
+Completed 200 OK in 69ms (Views: 65.2ms | ActiveRecord: 1.1ms | Allocations: 9969)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-02-01 15:28:55 -0500
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://[::1]:3000/
+Completed 302 Found in 41ms (ActiveRecord: 0.2ms | Allocations: 2350)
+
+
+Started GET "/" for ::1 at 2021-02-01 15:28:55 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweeets/_form.html.erb (Duration: 9.9ms | Allocations: 2950)
+  [1m[36mTweeet Load (0.3ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:25
+  Rendered tweeets/_feed.html.erb (Duration: 18.3ms | Allocations: 4639)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 19.5ms | Allocations: 4915)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 8535)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.5ms | Allocations: 8972)
+
+
+Started GET "/" for ::1 at 2021-02-01 15:28:59 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweeets/_form.html.erb (Duration: 6.7ms | Allocations: 2942)
+  [1m[36mTweeet Load (0.3ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:14
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:25
+  Rendered tweeets/_feed.html.erb (Duration: 12.5ms | Allocations: 4626)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 4902)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 8525)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.4ms | Allocations: 8956)
+
+
+Started GET "/" for ::1 at 2021-02-01 15:31:20 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.4ms | Allocations: 93)
+  [1m[36mTweeet Load (0.4ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:16
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:27
+  Rendered tweeets/_feed.html.erb (Duration: 9.8ms | Allocations: 2015)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.9ms | Allocations: 125)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 22.3ms | Allocations: 3006)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 7237)
+Completed 200 OK in 40ms (Views: 37.3ms | ActiveRecord: 0.6ms | Allocations: 8471)
+
+
+Started GET "/" for ::1 at 2021-02-01 15:46:28 -0500
+Processing by TweeetsController#index as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweeets_controller.rb:6:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  Rendered tweeets/_trends.html.erb (Duration: 0.6ms | Allocations: 93)
+  [1m[36mTweeet Load (0.5ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:16
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:27
+  Rendered tweeets/_feed.html.erb (Duration: 14.8ms | Allocations: 1992)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 1.1ms | Allocations: 125)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 24.8ms | Allocations: 3111)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.3ms | Allocations: 7327)
+Completed 200 OK in 63ms (Views: 51.5ms | ActiveRecord: 1.8ms | Allocations: 9167)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-02-01 15:46:34 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 559)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 40.7ms | Allocations: 9359)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48.2ms | Allocations: 13021)
+Completed 200 OK in 86ms (Views: 57.2ms | ActiveRecord: 0.0ms | Allocations: 16539)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-02-01 15:46:40 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gasb_150@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "gasb_150@hotmail.com"], ["LIMIT", 1]]
+Redirected to http://[::1]:3000/
+Completed 302 Found in 298ms (ActiveRecord: 0.2ms | Allocations: 3473)
+
+
+Started GET "/" for ::1 at 2021-02-01 15:46:41 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  Rendered tweeets/_profile.html.erb (Duration: 7.6ms | Allocations: 4693)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 5804)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 5903)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms | Allocations: 6317)
+
+
+
+NameError - undefined local variable or method `current' for #<ActionView::Base:0x0000000000c2b0>
+Did you mean?  current_user:
+  app/views/tweeets/_profile.html.erb:14
+  app/views/tweeets/index.html.erb:5
+
+Started POST "/__better_errors/975497dc05b8cb11/variables" for ::1 at 2021-02-01 15:46:41 -0500
+Started GET "/" for ::1 at 2021-02-01 15:47:04 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  Rendered tweeets/_profile.html.erb (Duration: 10.2ms | Allocations: 4664)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 14.1ms | Allocations: 5936)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 6035)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.1ms | Allocations: 7247)
+
+
+
+NameError - undefined local variable or method `current' for #<ActionView::Base:0x0000000000c3c8>
+Did you mean?  current_user:
+  app/views/tweeets/_profile.html.erb:14
+  app/views/tweeets/index.html.erb:5
+
+Started POST "/__better_errors/7a7cc05758b76b21/variables" for ::1 at 2021-02-01 15:47:04 -0500
+Started GET "/" for ::1 at 2021-02-01 15:47:22 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweeets" WHERE "tweeets"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/tweeets/_profile.html.erb:27
+  Rendered tweeets/_profile.html.erb (Duration: 7.7ms | Allocations: 1048)
+  Rendered tweeets/_form.html.erb (Duration: 15.6ms | Allocations: 3117)
+  [1m[36mTweeet Load (0.4ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:16
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:27
+  Rendered tweeets/_feed.html.erb (Duration: 25.7ms | Allocations: 5373)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.4ms | Allocations: 130)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 47.0ms | Allocations: 8248)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53.0ms | Allocations: 12358)
+Completed 200 OK in 62ms (Views: 56.0ms | ActiveRecord: 1.4ms | Allocations: 13597)
+
+
+Started GET "/" for ::1 at 2021-02-01 15:48:33 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweeets" WHERE "tweeets"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/tweeets/_profile.html.erb:27
+  Rendered tweeets/_profile.html.erb (Duration: 3.4ms | Allocations: 1030)
+  Rendered tweeets/_form.html.erb (Duration: 4.7ms | Allocations: 3109)
+  [1m[36mTweeet Load (0.3ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:16
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:27
+  Rendered tweeets/_feed.html.erb (Duration: 12.1ms | Allocations: 5365)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.3ms | Allocations: 126)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 21.3ms | Allocations: 8219)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.9ms | Allocations: 12309)
+Completed 200 OK in 31ms (Views: 28.7ms | ActiveRecord: 0.8ms | Allocations: 13548)
+
+
+Started GET "/" for ::1 at 2021-02-01 15:50:12 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  Rendered tweeets/_profile.html.erb (Duration: 0.9ms | Allocations: 1323)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2595)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2695)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.1ms | Allocations: 3906)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <div class="column is-one-quarter">
+  <nav class="panel">
+    <p class="panel-heading"></p>
+      <div class="panel-block">
+        <article class="media">
+          <div class="media-left">
+            <figure class="image is-64x64">
+              <% gravatar_image_tag(current_user.email)
+            </figure>
+          </div>
+          <div class="media-content">
+            <div class="content">
+              <p>
+                <strong><%= current_user.name %></strong></br>
+                <small><%= current_user.username %></small>
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="panel-block">
+        <div class="level is-mobile">
+          <div class="level-item has-centered-text">
+            <div>
+              <p class="heading">Tweeets</p>
+              <p class="title is-6"><%= current_user.tweeets.count %></p>
+            </div>
+          </div>
+          <div class="level-item has-centered-text">
+            <div>
+              <p class="heading">Following</p>
+              <p class="title is-6">123</p>
+            </div>
+          </div>
+          <div class="level-item has-centered-text">
+            <div>
+              <p class="heading">Followers</p>
+              <p class="title is-6">465K</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </nav>
+</div>:
+  app/views/tweeets/index.html.erb:5
+
+Started POST "/__better_errors/0ad0d5ebf9432c4d/variables" for ::1 at 2021-02-01 15:50:12 -0500
+Started GET "/" for ::1 at 2021-02-01 15:50:26 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweeets" WHERE "tweeets"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/tweeets/_profile.html.erb:27
+  Rendered tweeets/_profile.html.erb (Duration: 4.6ms | Allocations: 1088)
+  Rendered tweeets/_form.html.erb (Duration: 5.3ms | Allocations: 3109)
+  [1m[36mTweeet Load (0.7ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:16
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:27
+  Rendered tweeets/_feed.html.erb (Duration: 12.7ms | Allocations: 5364)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.3ms | Allocations: 125)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 27.6ms | Allocations: 8275)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 12365)
+Completed 200 OK in 43ms (Views: 37.2ms | ActiveRecord: 1.4ms | Allocations: 13598)
+
+
+Started GET "/" for ::1 at 2021-02-01 15:51:33 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweeets" WHERE "tweeets"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/tweeets/_profile.html.erb:27
+  Rendered tweeets/_profile.html.erb (Duration: 3.6ms | Allocations: 1088)
+  Rendered tweeets/_form.html.erb (Duration: 5.0ms | Allocations: 3108)
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:16
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:27
+  Rendered tweeets/_feed.html.erb (Duration: 10.5ms | Allocations: 5363)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.3ms | Allocations: 125)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 18.9ms | Allocations: 8272)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 12362)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.6ms | Allocations: 13595)
+
+
+Started GET "/" for ::1 at 2021-02-01 15:52:31 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweeets" WHERE "tweeets"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/tweeets/_profile.html.erb:27
+  Rendered tweeets/_profile.html.erb (Duration: 3.2ms | Allocations: 917)
+  Rendered tweeets/_form.html.erb (Duration: 5.4ms | Allocations: 2948)
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:16
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:27
+  Rendered tweeets/_feed.html.erb (Duration: 10.4ms | Allocations: 4683)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 23.1ms | Allocations: 6736)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | Allocations: 10348)
+Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 0.7ms | Allocations: 10784)
+
+
+Started GET "/" for ::1 at 2021-02-01 15:53:12 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweeets" WHERE "tweeets"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/tweeets/_profile.html.erb:27
+  Rendered tweeets/_profile.html.erb (Duration: 2.5ms | Allocations: 1088)
+  Rendered tweeets/_form.html.erb (Duration: 5.8ms | Allocations: 3108)
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:17
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:28
+  Rendered tweeets/_feed.html.erb (Duration: 11.5ms | Allocations: 5425)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.3ms | Allocations: 125)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 18.6ms | Allocations: 8342)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 12432)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.5ms | Allocations: 13670)
+
+
+Started GET "/" for ::1 at 2021-02-01 16:21:59 -0500
+Processing by TweeetsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweeets_controller.rb:6:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweeets" WHERE "tweeets"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/tweeets/_profile.html.erb:27
+  Rendered tweeets/_profile.html.erb (Duration: 2.7ms | Allocations: 1089)
+  Rendered tweeets/_form.html.erb (Duration: 5.1ms | Allocations: 3108)
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:17
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:22
+  Rendered tweeets/_feed.html.erb (Duration: 11.6ms | Allocations: 5506)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.3ms | Allocations: 125)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 19.0ms | Allocations: 8445)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 12535)
+Completed 200 OK in 32ms (Views: 26.1ms | ActiveRecord: 1.2ms | Allocations: 14379)
+
+
+Started GET "/tweeets/8/edit" for ::1 at 2021-02-01 16:25:04 -0500
+Processing by TweeetsController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTweeet Load (0.4ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" WHERE "tweeets"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tweeets_controller.rb:63:in `set_tweeet'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/edit.html.erb within layouts/application
+  Rendered tweeets/_form.html.erb (Duration: 10.0ms | Allocations: 3626)
+  Rendered tweeets/edit.html.erb within layouts/application (Duration: 13.0ms | Allocations: 4005)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.8ms | Allocations: 7750)
+Completed 200 OK in 41ms (Views: 30.0ms | ActiveRecord: 0.7ms | Allocations: 9949)
+
+
+Started GET "/tweeets/8" for ::1 at 2021-02-01 16:25:08 -0500
+Processing by TweeetsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mTweeet Load (0.4ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" WHERE "tweeets"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/tweeets_controller.rb:63:in `set_tweeet'
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/show.html.erb within layouts/application
+  Rendered tweeets/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 212)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:44
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 4766)
+Completed 200 OK in 35ms (Views: 27.2ms | ActiveRecord: 0.7ms | Allocations: 5849)
+
+
+Started GET "/" for ::1 at 2021-02-01 16:25:56 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweeets" WHERE "tweeets"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/tweeets/_profile.html.erb:27
+  Rendered tweeets/_profile.html.erb (Duration: 4.7ms | Allocations: 1087)
+  Rendered tweeets/_form.html.erb (Duration: 1.0ms | Allocations: 1433)
+  Rendered tweeets/_feed.html.erb (Duration: 2.6ms | Allocations: 2124)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 15.5ms | Allocations: 4698)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 4798)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.5ms | Allocations: 6005)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweeet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweeet, label: "Tweet about it", input_html: { class: "textarea "}, wrapper: false, label_html: { class: "label" }, placeholder: "Compose a new tweeet..." autofocuse: true%>
+    </div>
+  </div>
+  <%= f.button :submit, class: "button is-info" %>
+  <% end %>:
+  app/views/tweeets/_feed.html.erb:11
+  app/views/tweeets/index.html.erb:9
+
+Started POST "/__better_errors/338a127525c0bedd/variables" for ::1 at 2021-02-01 16:25:57 -0500
+Started POST "/__better_errors/338a127525c0bedd/variables" for ::1 at 2021-02-01 16:26:04 -0500
+Started GET "/" for ::1 at 2021-02-01 16:26:23 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweeets" WHERE "tweeets"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/tweeets/_profile.html.erb:27
+  Rendered tweeets/_profile.html.erb (Duration: 3.9ms | Allocations: 1087)
+  Rendered tweeets/_form.html.erb (Duration: 0.8ms | Allocations: 1431)
+  Rendered tweeets/_feed.html.erb (Duration: 2.2ms | Allocations: 2124)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 4701)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 4801)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.5ms | Allocations: 6012)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweeet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweeet, label: "Tweet about it", input_html: { class: "textarea "}, wrapper: false, label_html: { class: "label" }, placeholder: "Compose a new tweeet..." autofocus: true%>
+    </div>
+  </div>
+  <%= f.button :submit, class: "button is-info" %>
+  <% end %>:
+  app/views/tweeets/_feed.html.erb:11
+  app/views/tweeets/index.html.erb:9
+
+Started POST "/__better_errors/3260bf559b48ab35/variables" for ::1 at 2021-02-01 16:26:23 -0500
+Started GET "/" for ::1 at 2021-02-01 16:26:46 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweeets" WHERE "tweeets"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/tweeets/_profile.html.erb:27
+  Rendered tweeets/_profile.html.erb (Duration: 5.1ms | Allocations: 1087)
+  Rendered tweeets/_form.html.erb (Duration: 4.8ms | Allocations: 3114)
+  [1m[36mTweeet Load (0.2ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:17
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:22
+  Rendered tweeets/_feed.html.erb (Duration: 11.0ms | Allocations: 5483)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.3ms | Allocations: 125)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 24.0ms | Allocations: 8394)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 12499)
+Completed 200 OK in 38ms (Views: 32.8ms | ActiveRecord: 0.8ms | Allocations: 13736)
+
+
+Started GET "/" for ::1 at 2021-02-01 16:29:43 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweeets" WHERE "tweeets"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/tweeets/_profile.html.erb:27
+  Rendered tweeets/_profile.html.erb (Duration: 2.7ms | Allocations: 1087)
+  Rendered tweeets/_form.html.erb (Duration: 5.0ms | Allocations: 3110)
+  [1m[36mTweeet Load (0.4ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:17
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:22
+  Rendered tweeets/_feed.html.erb (Duration: 11.3ms | Allocations: 5479)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.3ms | Allocations: 125)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 18.5ms | Allocations: 8390)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 12477)
+Completed 200 OK in 27ms (Views: 24.6ms | ActiveRecord: 0.9ms | Allocations: 13716)
+
+
+Started GET "/" for ::1 at 2021-02-01 16:29:44 -0500
+Processing by TweeetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweeets/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/index.html.erb:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tweeets" WHERE "tweeets"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/views/tweeets/_profile.html.erb:27
+  Rendered tweeets/_profile.html.erb (Duration: 3.7ms | Allocations: 917)
+  Rendered tweeets/_form.html.erb (Duration: 7.8ms | Allocations: 2946)
+  [1m[36mTweeet Load (0.3ms)[0m  [1m[34mSELECT "tweeets".* FROM "tweeets" ORDER BY created_at DESC[0m
+  ↳ app/views/tweeets/_feed.html.erb:17
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/tweeets/_feed.html.erb:22
+  Rendered tweeets/_feed.html.erb (Duration: 15.6ms | Allocations: 4762)
+  Rendered tweeets/_who-to-follow.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendered tweeets/index.html.erb within layouts/application (Duration: 24.6ms | Allocations: 6815)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.9ms | Allocations: 10410)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.9ms | Allocations: 10849)
+
+
